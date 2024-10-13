@@ -2,7 +2,8 @@
 import './App.css'
 import Counter from './Counter';
 import CounterNew from './CounterNew';
-import Users from './Users';
+import Friends from './Friends';
+
 
 
 function App() {
@@ -16,9 +17,7 @@ function App() {
   return (
    <>
    <br />
-<Users>
-
-</Users>
+    <Friends></Friends>
 
   <br /><br />  
   <button onClick={handleClick} > click me</button> 
